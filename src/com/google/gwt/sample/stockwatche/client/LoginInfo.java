@@ -49,4 +49,9 @@ public class LoginInfo implements Serializable {
   public void setNickname(String nickname) {
     this.nickname = nickname;
   }
+  
+  private void thisShouldntBeHere()
+  {
+	  System.out.println("This should be here");
+  }
 }
