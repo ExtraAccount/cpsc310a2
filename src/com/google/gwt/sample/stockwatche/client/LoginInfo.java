@@ -52,6 +52,6 @@ public class LoginInfo implements Serializable {
   
   private void thisShouldntBeHere()
   {
-	  System.out.println("This should be here");
+	  System.out.println("This shouldn't be here");
   }
 }
